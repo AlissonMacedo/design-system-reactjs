@@ -1,0 +1,30 @@
+{
+  "name": "@alissonmacedo/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.tsx --format esm, cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm, cjs --dts --external react --watch",
+    "link": "eslint src/**/*.ts*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@alissonmacedo/eslint-config": "*",
+    "@alissonmacedo/tokens": "*",
+    "@alissonmacedo/ts-config": "*",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react": "^18.2.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  }
+}
