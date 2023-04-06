@@ -5,7 +5,7 @@ export const Heading = styled('h2', {
   fontFamily: '$default',
   lineWidth: '$shorter',
   margin: 0,
-  color: '$gray',
+  color: '$gray100',
 
   variants: {
     size: {
