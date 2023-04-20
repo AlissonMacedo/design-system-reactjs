@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/alissonmacedo.png',
     alt: 'Alisson Macedo',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
