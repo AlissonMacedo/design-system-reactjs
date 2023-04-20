@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
@@ -29,6 +30,7 @@
     "@alissonmacedo/tokens": "*",
     "@alissonmacedo/ts-config": "*",
     "@storybook/addon-a11y": "6.5.12",
+    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
