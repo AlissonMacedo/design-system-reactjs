@@ -9,7 +9,6 @@ export default {
     size: 'md',
     children: 'Example text',
   },
-
   argTypes: {
     size: {
       options: [
