@@ -3,21 +3,21 @@ name: Deploy docs
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
-  builds-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-verion: 16
+          node-version: 16
 
-      - run: npm cli
+      - run: npm ci
 
       - run: npm run build
 
