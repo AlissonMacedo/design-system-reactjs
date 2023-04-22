@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@alissonmacedo/react'
+import { Box, Text, TextInput, TextInputProps } from '@alissonmacedo-ui/react'
 
 export default {
   title: 'TextArea/Text',

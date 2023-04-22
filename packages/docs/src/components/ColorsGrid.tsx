@@ -1,4 +1,4 @@
-import { colors } from '@alissonmacedo/tokens'
+import { colors } from '@alissonmacedo-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

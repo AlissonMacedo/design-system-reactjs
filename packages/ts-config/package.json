@@ -1,7 +1,7 @@
 {
-  "name": "@alissonmacedo/ts-config",
-  "version": "1.0.0",
+  "name": "@alissonmacedo-ui/ts-config",
+  "version": "1.1.0",
   "author": "Alisson Macedo",
-  "private": true,
-  "license": "ISC"
+  "private": false,
+  "license": "MIT"
 }

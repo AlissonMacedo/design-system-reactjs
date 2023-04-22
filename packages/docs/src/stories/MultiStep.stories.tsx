@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@alissonmacedo/react'
+import { Box, MultiStep, MultiStepProps } from '@alissonmacedo-ui/react'
 
 export default {
   title: 'Form/Multi Step',
