@@ -1,0 +1,2 @@
+import{A as t}from"./index.e08ca622.js";import"./index.033a431e.js";import"./iframe.97b0088b.js";import"./index.ad498a89.js";import"./jsx-runtime.711c6d55.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/alissonmacedo-ui.png",alt:"Alisson Macedo"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.61abd00a.js.map
